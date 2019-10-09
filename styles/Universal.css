@@ -25,6 +25,23 @@ footer a{
   color: black;
   padding: 20px 5%;
 }
+h4 {
+  border: solid 2px;
+  border-color: black;
+  background-color: #B2DDFF;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  border: solid 3px;
+  border-color: #4281FF;
+  background-color: #B2DDFF;
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
 #section1 {
   border: 2px solid black;
   background-color: #B2DDFF;
@@ -55,6 +72,18 @@ footer a{
   margin-left: auto;
   margin-right: auto;
 }
+#images-left {
+  position: relative;
+  Left: 125px;
+  border: solid 2px;
+  border-color: black;
+}
+#images-right {
+  position: relative;
+  Left: 250px;
+  border: solid 2px;
+  border-color: black;
+}
 .section-header {
   color: #d71a36;
   text-align: center;
@@ -77,27 +106,14 @@ footer a{
   margin-left: auto;
   margin-right: auto;
 }
-.images {
-  margin-right: inherit;
-  margin-left: inherit;
-  border-radius: 75%;
-  border: solid 2px;
-  border-color: black;
-}
+
 a[title] {
   color: #d71a36;
 }
 a:hover {
   color: #F4D684;
 }
-table {
-  border: solid 3px;
-  border-color: #4281FF;
-  background-color: #B2DDFF;
-  text-align: center;
-  margin: auto;
-  width: 75%;
-}
+
 tr > th {
   font-size: 18px;
   font-weight: bold;
@@ -107,13 +123,4 @@ ul > li {
   font-size: 18px
   border: solid 2px;
 
-}
-h4 {
-  border: solid 2px;
-  border-color: black;
-  background-color: #B2DDFF;
-  width: 50%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }

@@ -38,6 +38,23 @@ footer a{
   margin-right: auto;
   width: 75%;
 }
+#section3 {
+  border: 2px dotted black;
+  text-align: center;
+  text-decoration: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#section4 {
+  border: solid 2px;
+  border-color: black;
+  background-color: #B2DDFF;
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 .section-header {
   color: #d71a36;
   text-align: center;
@@ -48,12 +65,55 @@ footer a{
   background-color: #B2DDFF;
   font-size: 18px;
   font-style: normal;
+  text-align: center;
+  border: solid 2px;
+  border-color: black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .center {
   Display: block;
   margin-left: auto;
   margin-right: auto;
 }
+.images {
+  margin-right: inherit;
+  margin-left: inherit;
+  border-radius: 75%;
+  border: solid 2px;
+  border-color: black;
+}
 a[title] {
   color: #d71a36;
+}
+a:hover {
+  color: #F4D684;
+}
+table {
+  border: solid 3px;
+  border-color: #4281FF;
+  background-color: #B2DDFF;
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+tr > th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d71a36;
+}
+ul > li {
+  font-size: 18px
+  border: solid 2px;
+
+}
+h4 {
+  border: solid 2px;
+  border-color: black;
+  background-color: #B2DDFF;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
